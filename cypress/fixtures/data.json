@@ -1,0 +1,6 @@
+{
+    "id_1": {
+        "input_data":"Demo cypress automation",
+        "expected_result":"Demo cypress automation"
+    }
+}

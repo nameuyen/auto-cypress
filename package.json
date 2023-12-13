@@ -1,0 +1,25 @@
+{
+  "name": "test google search",
+  "version": "1.0.0",
+  "description": "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",
+  "main": "index.js",
+  "author": "QC",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "10.0.1",
+    "cypress": "12.14.0",
+    "cypress-email-results": "1.8.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "4.8.2"
+  },
+  "dependencies": {
+    "mocha": "10.2.0",
+    "mochawesome": "7.1.3",
+    "mochawesome-merge": "4.3.0",
+    "mochawesome-report-generator": "6.2.0",
+    "nodemailer": "6.9.5"
+  }
+}
