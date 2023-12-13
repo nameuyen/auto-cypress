@@ -31,6 +31,11 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://docs.cypress.io/api/commands/type',
     specPattern: 'cypress/e2e/**/*.spec.cy.{js,jsx,ts,tsx}',
+    reporter: 'mochawesome',
+    "reporterOptions": {
+      "reportDir": "reports",
+      "reportFilename": "results"
+    },
     setupNodeEvents(on, config) {
 
       on('task', {

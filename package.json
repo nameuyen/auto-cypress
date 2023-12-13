@@ -1,11 +1,13 @@
 {
-  "name": "test google search",
+  "name": "test_google_search",
   "version": "1.0.0",
   "description": "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",
   "main": "index.js",
   "author": "QC",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open --env BASE_URL_CYPRESS=https://www.google.com/",
+    "cypress:run": "npx cypress run --env BASE_URL_CYPRESS=https://www.google.com/ --spec 'cypress/e2e/**/*.spec.cy.ts'"
+    
   },
   "license": "ISC",
   "devDependencies": {
